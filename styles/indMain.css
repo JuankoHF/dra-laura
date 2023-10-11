@@ -1,0 +1,212 @@
+@import './global.css';
+
+.profile_picture-under {
+    width: 100vw;
+    height: 600px;
+    background: var(--silver);  
+    background: -webkit-linear-gradient(to bottom, var(--silve_transparent), var(--silver));  
+    background: linear-gradient(to bottom, var(--silve_transparent), var(--silver)); 
+
+    padding-top: 85px;
+}
+.profile_picture {
+    width: 90%;
+    max-width: 480px;
+    height: auto;
+    display: flex;
+    position: relative;
+    padding-top: 25px;
+
+}
+.black_back {
+    width: 50px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    background-color: var(--total_black);
+    left: calc(50% - 80px);
+    animation-name: inicio;
+    animation-duration: 3.5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes inicio {
+    form {
+        width: 300px;
+        
+    }
+    30% {
+        opacity: 1;
+        width: 200px;
+        height: 400px;
+    }
+    70% {
+        width: 90px;
+        height: 60px;
+    }
+    to {
+        opacity: 0.8;
+        width: 50px;
+    }
+}
+
+.profile_picture img {
+   width: 239px;
+   height: 317px;
+   display: flex;
+   position: absolute;
+   left: calc(50% - 110px);
+}
+.profile_picture h2{
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    position: absolute;
+    left: start;
+    top: 320px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.8rem;
+    letter-spacing: 1.2px;
+    color: var(--soft-grey);
+    background-color: var(--total_black);
+    font-weight: bold;
+    padding: 4px 4px 4px 8px;
+    border-bottom: solid 2px var(--sub_pink);
+}
+.profile_picture p {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 360px;
+    padding: 6px 0px;
+    font-size: 1.6rem;
+    color: var(--total_black);
+    opacity: 0.8;
+    text-align: right;   
+    border-bottom: solid 4px var(--sub_pink);
+}
+.about {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background: var(--silver);  
+    background: -webkit-linear-gradient(to bottom, var(--silver), var(--silve_transparent));  
+    background: linear-gradient(to bottom,  var(--silver), var(--silve_transparent)); 
+}
+.nav-items {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 125px);
+    padding: 0 35px;
+    background-color: rgba(19, 19, 19, 0.825);
+    box-shadow:  5px 5px 10px #838282, -5px -5px 10px #acabab;
+    border-radius: 16px;
+    
+}
+.nav_icons {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+.nav_icons img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.paragraph_continer {
+    width: 90%;
+    max-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 5px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--total_black);
+    opacity: 0.8;
+}
+
+
+.graphic_menu {
+    width: 100vw;
+    padding: 10px 10px 30px 10px ;
+    height: auto;
+    display: flex;
+    background: var(--silve_transparent);
+    
+}
+.card_menu {
+    width: 95px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: rgba(52, 52, 52, 0.825);
+    border-radius: 8px;
+    box-shadow:  5px 5px 10px #838282, -5px -5px 10px #acabab;
+    text-align: center;
+}
+.image_menu {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 3px var(--sub_pink);
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+}
+.card_menu a {
+    text-decoration: none;
+    color:  var(--sub_pink);
+    font-size: 1.2rem;
+}
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: var(--total_black);
+}
+.content {
+    width: 90%;
+    max-width: 480px;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 15px;
+}
+.content h2{
+    color: var(--soft-grey);
+    margin-right: 12px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    opacity: 0.8; 
+}
+.signature p {
+    color: var(--soft-grey);
+    margin-right: 10px;
+    margin-bottom: 6px;
+    font-size: 1.2rem;
+    opacity: 0.8; 
+}
+.signature h3 {
+    color: var(--soft-grey);
+    margin-right: 10px;
+    margin-bottom: 6px;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+}
+.jnk {
+    width: 40px;
+    height: 20px;
+    background-color:var(--sub_orange);
+    margin-left: calc(50% - 20px);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}

@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra Laura Guadalete</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=PT+Serif:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/indStyles.css">
+    <link rel="stylesheet" href="./styles/indMain.css">
+    <link rel="stylesheet" href="./mediaCSS/DraLGS-tablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="./mediaCSS/DraLGS-big.css" media="(min-width: 950px)">
 </head>
+
 <body>
     <header>
         <div class="header_menu">
@@ -20,6 +28,33 @@
                 <span class="line2__bars-menu"></span>
                 <span class="line3__bars-menu"></span>
             </div>
+
+            <ul class="forLGS-big">
+                <li class="list_item">
+                    <a class="nav_link" chref="#">Ortodoncia</a>
+                    <ul class="link_show LGS-big_show1">
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Invisible</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Convencional</a></li>
+                    </ul>
+                </li>
+                <li class="list_item">
+                    <a class="nav_link" chref="#">Especialidades</a>
+                    <ul class="link_show LGS-big_show1">
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Carillas</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Ortodoncia</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Blanqueamiento</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list_item">
+                    <a class="nav_link" chref="#">Otros Tratamientos</a>
+                    <ul class="link_show LGS-big_show1">
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Endodoncia</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Odontología
+                        Restauradora</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         <nav class="nav_menu  nav__menu--click">
             <a class="nav_list" href="#">Dra. Laura Guadalete Sousa</a>
@@ -44,7 +79,8 @@
                     <ul class="link_show">
                         <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Carillas</a></li>
                         <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Ortodoncia</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Blanqueamiento Dental</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Blanqueamiento Dental</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="list_item">
@@ -55,14 +91,80 @@
 
                     <ul class="link_show">
                         <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Endodoncia</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Odontología Restauradora</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Odontología
+                                Restauradora</a></li>
                     </ul>
                 </li>
             </ul>
-        </header>
         </nav>
+    </header>
+    <main>
+        <section class="profile_picture-under">
+            <div class="profile_picture">
+                <span class="black_back"> </span>
+                <img src="./image/risueñaSinFondo.png" alt="foto de LAURA">
+                <h2>Dra. Laura Guadalete Sousa</h2>
+                <p>Lider en el sector de la ortodoncia,
+                    especializada en ortodoncia invisible 
+                    y experta en estética dentofacial.</p>
+            </div>
+            <div class="photoF_bigLGS">
+                <object data="./image/seriaSinFondo.png" class="LGS" type=""></object>
+                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.28,-8.58 C149.77,189.76 315.12,-78.65 608.01,240.09 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#eda2d0fc;"></path></svg></div>
+                <h2>Dra. Laura Guadalete Sousa</h2>
+                <h3>Dra. Laura Guadalete Sousa</h3>
+                <p>Lider en el sector de la ortodoncia,
+                    especializada en ortodoncia invisible 
+                    y experta en estética dentofacial.</p>
+            </div>
+        </section>
+        <section class="about">
+            <div class="nav-items">
+                <a class="nav_icons" href="#"><img src="./icons/linkedin.svg" alt=""></a>
+                <a class="nav_icons" href="#"><img src="./icons/mail.svg" alt=""></a>
+                <a class="nav_icons" href="#"><img src="./icons/whatsapp.svg" alt=""></a>
+            </div>
+            <div class="paragraph_continer">
+                <p>La<h3>Dra Laura Guadalete Sousa</h3>atiende a cada uno de sus pacientes siguiendo la mas avanzada metodología. Comienza con un estudio psicológico y conductual de cada paciente, para diseñar una sonrisa de a corde con su personalidad.</p>
+                <p>Para llevar a cabo esta metodología representativa, desde la primera consulta, se crea una admosfera de confianza mediante las primeras charlas. A partir de ese punto de vínculo, doctora, paciente, surgen necesidades intrisecas que ayudan a la doctora a estructurar un tratamieto personalizado</p>
+            </div>
+        </section>
+        <section class="graphic_menu">
+            <div class="card_menu card-for-tablet1">
+                <img class="image_menu" src="./image/aligner.jpg" alt="">
+                <a href="#">Ortodoncia</a>
+            </div>
+            <div class="card_menu card-for-tablet2">
+                <img class="image_menu" src="./image/orthodonticsEvolution.jpeg" alt="">
+                <a href="#">Especialidades</a>
+            </div>
+            <div class="card_menu card-for-tablet3">
+                <img class="image_menu" src="./image/colorGuide.jpg" alt="">
+                <a href="#">Otros Tratamientos</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="content">
+                <h2>COOKIES</h2>
+                <h2>PROTECCIÓN DE DATOS</h2>
+                <h2>AVISO LEGAL</h2>
+                <h2>CONTACTO</h2> 
+            </div>
+            <div class="content signature">
+                <p>copyright 2022</p>
+                <h3>Laura Guadalete Sousa</h3>
+                <p> | Desarrollado por JNK-WedDEV</p>
+            </div>
+            <object data="./icons/jnk.svg" class="jnk" type=""></object>
+        </div>
+
+    </footer>
+
 
     <script src="./proJS/animateMenu.js"></script>
     <script src="./proJS/ListOfMenu.js"></script>
 </body>
+
 </html>

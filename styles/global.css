@@ -1,0 +1,33 @@
+:root {
+    --total_black: #000000;
+    --soft-grey: #F7F7F7;
+    --dow_green-text: #E0FFFF;	
+    --silver: #C0C0C0;
+    --silve_transparent: rgba(192, 192, 192, 0.16);
+    --sub_orange:  rgba(227, 179, 83);
+    --sub_pink:  #eda2d0fc;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+}
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--soft-grey);
+}

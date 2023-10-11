@@ -1,0 +1,86 @@
+.header_menu {
+    height: 80px;
+    background: #000000; 
+    background: -webkit-linear-gradient(to left, #4b4d4f, #000000);  
+    background: linear-gradient(to left, #4b4d4f, #000000); 
+}
+.header_menu h1 {
+    text-align: left;
+    margin-left: 50px;
+}
+.header_menu h1::before {
+    content: "Dra. ";
+}
+.header_menu p {
+    text-align: left;
+    margin-left: 110px;
+}
+.menu {
+    top: 25px;
+    right: 50px;
+}
+.nav_list {
+    padding: 8px 140px;
+}
+.list_item {
+    padding: 4px 140px;
+}
+.list_sub_item {
+    padding: 4px 30px;
+}
+.profile_picture-under {
+    padding-top: 100px;
+}
+.profile_picture {
+    width: 40%;
+    max-width: 800px;
+    margin-left: 50px;
+ }
+.graphic_menu {
+    width: 100%;
+    position: relative;  
+    
+}
+.card_menu {
+    width: 100px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: rgba(52, 52, 52, 0.825);
+    border-radius: 8px;
+    box-shadow:  5px 5px 10px #838282, -5px -5px 10px #acabab;
+    text-align: center;
+    
+}
+.card-for-tablet1 {
+    position: absolute;
+    top: -720px;
+    left: calc(50% + 10px);
+}
+.card-for-tablet2 {
+    position: absolute;
+    top: -720px;
+    left: calc(50% + 130px);
+}
+.card-for-tablet3 {
+    position: absolute;
+    top: -720px;
+    left: calc(50% + 250px);
+}
+.nav-items {
+    width: 320px;
+    height: 50px;
+    top: -180px;
+    left: calc(50% + 20px);
+}
+.nav_icons {
+    margin-left: 30px;
+    margin-top: 7.5px;
+}
+.nav_icons img {
+    width: 35px;
+    height: 35px; 
+}
+.paragraph_continer {
+    max-width: 800px;
+    font-size: 1.8rem;
+}

@@ -1,19 +1,11 @@
-:root {
-    --total_black: #000000;
-    --soft-grey: #F7F7F7;
-    --dow_green-text: #E0FFFF;	
-    --silver: #C0C0C0;
-    --silve_transparent: rgba(192, 192, 192, 0.16);
-}
+@import './global.css';
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+.forLGS-big {
+    display: none;
 }
-html {
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+.photoF_bigLGS {
+    display: none;
 }
 
 .header_menu {
@@ -21,10 +13,37 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 70px;
     min-height: 50px;
     background-color: var(--total_black);
+    border-bottom: solid 2px var(--sub_pink);
+
+    animation-name: front;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes front {
+    form {
+       opacity: 1;
+       width: 100vw;
+       height: 100vh;
+       
+    }
+    5% {
+        width: 100vw;
+        height: 100vh;
+    }
+    70% {
+        width: 100vw;
+        height: 100vh;
+    }
+    to {
+        opacity: 0.8;
+        width: 100vw;
+        height: 70px;
+    }
 }
 .header_menu h1 {
     text-align: center;
@@ -79,12 +98,12 @@ html {
     height: auto;
     padding: 48px 0;
     display: flex;
+    position: fixed;
     justify-content: center;
     flex-direction: column;
     border-radius: 0 0 16px 16px;
     background-color: rgba(0, 0, 0, 0.825);
     box-shadow: 7px 7px 16px #b1b1b1;
-    /*prueba*/
     clip-path: circle(0 at 100% 0);
     transition: clip-path 1s;
 }
