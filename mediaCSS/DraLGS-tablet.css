@@ -1,5 +1,5 @@
 .header_menu {
-    height: 80px;
+    /* height: 80px; */
     background: #000000; 
     background: -webkit-linear-gradient(to left, #4b4d4f, #000000);  
     background: linear-gradient(to left, #4b4d4f, #000000); 
@@ -8,15 +8,12 @@
     text-align: left;
     margin-left: 50px;
 }
-.header_menu h1::before {
-    content: "Dra. ";
-}
 .header_menu p {
     text-align: left;
     margin-left: 110px;
 }
 .menu {
-    top: 25px;
+    /* top: 25px; */
     right: 50px;
 }
 .nav_list {

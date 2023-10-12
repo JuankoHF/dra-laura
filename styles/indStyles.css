@@ -18,6 +18,7 @@
     min-height: 50px;
     background-color: var(--total_black);
     border-bottom: solid 2px var(--sub_pink);
+    box-shadow: 0 0 4px var(--sub_pink);
 
     animation-name: front;
     animation-duration: 5s;
@@ -49,20 +50,20 @@
     text-align: center;
     margin-right: 40px;
     font-family: 'PT Serif', serif;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: var(--soft-grey);
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
 }
 .header_menu p {
     width: 260px;
     margin-left: calc(50% - 150px);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'PT Serif', serif;
     color: var(--soft-grey);
     margin-top: 3px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
 }
 .menu {
    position: absolute;
@@ -103,19 +104,22 @@
     flex-direction: column;
     border-radius: 0 0 16px 16px;
     background-color: rgba(0, 0, 0, 0.825);
-    box-shadow: 7px 7px 16px #b1b1b1;
+    box-shadow: 0px 0px 20px black;
     clip-path: circle(0 at 100% 0);
-    transition: clip-path 1s;
+    transition: clip-path 0.6s;
+    transition: 0.5s ease-in-out;
+    opacity: 0.2;
 }
 
 .activenav__menu--click {
     clip-path: circle(100% at 44% 56%);  
+    opacity: 1;
 }
 .nav_list {
     text-align: left;
     text-decoration: none;
     padding: 8px 24px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: var(--dow_green-text);
 }
@@ -124,7 +128,7 @@
     width: 100%;
     text-align: left;
     padding: 4px 24px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: var(--dow_green-text);
     overflow: hidden; /*escondemos los ul*/
@@ -142,7 +146,7 @@
 
 .nav_sub_list {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--dow_green-text);
 }
 .arrow .donw-arrow {
