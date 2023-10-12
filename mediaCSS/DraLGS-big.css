@@ -1,9 +1,18 @@
 .header_menu {
+    height: 80px;
     margin: 0 auto;
     flex-direction: column;
     border-bottom: solid 4px #eda2d0fc;
     animation: none;
 }
+
+.header_menu h1 {
+    font-size: 2rem;
+}
+.header_menu p {
+    font-size: 1.6rem;
+}
+
 .menu {
     display: none;
 }
@@ -48,6 +57,7 @@
     display: flex;
     position: absolute;
     flex-direction: column;
+    gap: 8px;
     width: 180px;
     height: auto;
     top: 70px;
@@ -63,12 +73,14 @@
     transition: all 300ms ease;
 }
 .nav_sub_list {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 16px;
     letter-spacing: 1.2px;
     color: var(--soft-grey);
-    padding-left: 4px;
-    margin: 2px;
+    padding-left: 6px;
     opacity: 0.8;
+    display: flex;
+    width: 100%;
 }
 .nav_sub_list:hover {
     border-left: solid 2px var(--soft-grey);
