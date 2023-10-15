@@ -2,10 +2,12 @@
     --total_black: #000000;
     --soft-grey: #F7F7F7;
     --dow_green-text: #FFFFFF;	
-    --silver: #C0C0C0;
+    --silver: #ebe8e8;
+    --silver_strong: #c0c0cc;
     --silve_transparent: rgba(192, 192, 192, 0.16);
     --sub_orange:  rgba(227, 179, 83);
     --sub_pink:  #eda2d0fc;
+    --green_card: rgb(67, 197, 78);
 }
 * {
     box-sizing: border-box;
@@ -29,5 +31,5 @@ header{
 main {
     width: 100%;
     height: auto;
-    background-color: var(--soft-grey);
+    background-color: var(--silver);
 }
