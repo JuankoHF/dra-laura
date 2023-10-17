@@ -16,9 +16,10 @@
     width: 100vw;
     height: 70px;
     min-height: 50px;
-    background-color: var(--total_black);
-    border-bottom: solid 2px var(--sub_pink);
-    box-shadow: 0 0 4px var(--sub_pink);
+    background-color: transparent;
+    /* background-color: var(--total_black);
+    border-bottom: solid 1px var(--sub_pink);
+    box-shadow: 0 0 2px var(--sub_pink); */
 
     animation-name: front;
     animation-duration: 5s;
@@ -166,11 +167,11 @@
     transition: height .4s;
     height: 0;
 }
-.nav_list:active {
+/* .nav_list:active {
     background-color: var(--silver);
     color: var(--total_black);
 }
 .nav_link:active {
     background-color: var(--silver);
     color: var(--total_black);
-}
+} */

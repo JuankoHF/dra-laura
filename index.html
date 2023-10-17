@@ -11,11 +11,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=PT+Serif:wght@400;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/indStyles.css">
     <link rel="stylesheet" href="./styles/indMain.css">
     <link rel="stylesheet" href="./mediaCSS/DraLGS-tablet.css" media="(min-width: 600px)">
-    <link rel="stylesheet" href="./mediaCSS/DraLGS-big.css" media="(min-width: 1200px)">
     <link rel="stylesheet" href="./mediaCSS/DraLGS-big.css" media="(min-width: 1200px)">
     <link rel="stylesheet" href="./mediaCSS/DraLGS-size-plus.css" media="(min-width: 1900px)">
 </head>
@@ -102,30 +104,137 @@
     </header>
     <main>
         <section class="profile_picture-under">
-            <div class="profile_picture">
+           
+            <video onloadedmetadata="this.muted=true" autoplay loop>
+                <source src="./videos/video_fondo.mp4" autoplay loop>
+            </video>
+            <!-- <div class="profile_picture">
+                <span class="orange_circle"></span>
+                <span class="pink_tiny_circle to_right"></span>
+                <span class="pink_tiny_circle to_left"></span>
+                <div class="orange_tiny_circle">
+                    <div class="white_circle"></div>
+                </div>
                 <span class="black_back"> </span>
                 <img src="./image/risueñaSinFondo.png" alt="foto de LAURA">
-                <h2>Dra. Laura Guadalete Sousa</h2>
-                <p>Lider en el sector de la ortodoncia,
-                    especializada en ortodoncia invisible 
-                    y experta en estética dentofacial.</p>
-            </div>
+    
+            </div> -->
             <div class="photoF_bigLGS">
+                <span class="orange_circle"></span>
+                <span class="pink_tiny_circle to_right"></span>
+                <span class="pink_tiny_circle to_left"></span>
+                <div class="orange_tiny_circle">
+                    <div class="white_circle"></div>
+                </div>
+                
                 <object data="./image/seriaSinFondo.png" class="LGS" type=""></object>
-                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.28,-8.58 C149.77,189.76 315.12,-78.65 608.01,240.09 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#eda2d0fc;"></path></svg></div>
-                <h2>Dra. Laura Guadalete Sousa</h2>
+                <span class="black_back"> </span>
+                <!-- <div class="wave" style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.28,-8.58 C149.77,189.76 315.12,-78.65 608.01,240.09 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#000000;"></path></svg></div> -->
+                <!-- <h2>Dra. Laura Guadalete Sousa</h2>
                 <h3>Dra. Laura Guadalete Sousa</h3>
                 <p>Lider en el sector de la ortodoncia,
                     especializada en ortodoncia invisible 
-                    y experta en estética dentofacial.</p>
+                    y experta en estética dentofacial.</p> -->
             </div>
+            <div class="profile_information_content">
+                <div class="contente_description">
+                    <h1>Dra. LAURA</h1>
+                    <p>Lider en el sector de la ortodoncia.
+                    </p>
+                    <p>Especializada en ortodoncia invisible</p>
+                    <p>Experta en estética dentofacial.</p>
+
+                    
+                </div>
+                <div class="content_interactive_text">
+                    <div class="loader">
+                        <p>Tu sonrisa es:</p>
+                        <div class="words">
+                          <span class="word">tu imagen</span>
+                          <span class="word">tu aspecto</span>
+                          <span class="word">tu salud</span>
+                          <span class="word">tu expresión</span>
+                          <span class="word">tu vitalidad</span>
+                        </div>
+                    </div>
+    
+                    <div class="text_action_content" id="emailButton2">
+                        <p>Decide la sonrisa que quieres tener.</p>
+                        <div class="button_action">
+                            <span></span>
+                            <p>PIDE CITA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="formation_experience_attention">
+                    <div class="card_content formation">
+                        <div class="description_card">
+                            <img src="/icons/book.svg" alt="" class="formation_icon">
+                            <p>Formación</p>
+                        </div>
+                        <span class="line_separator"></span>
+                        <div class="formation_description">
+                            <ul>
+                                <li>- Licenciada en Odontología.</li>
+                                <li>- Postgrado de Ortodoncia. </li>
+                                <li>- Máster de Ortodoncia Invisible.</li>
+                                <li>- Master en endodoncia.</li>
+                                <li>- Odontopediatría y Traumatología Dental</li>
+                                <li>- Curso de Estética en Prótesis Fija</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="card_content experience">
+                        <div class="description_card">
+                            <img src="/icons/dentist-tooth.svg" alt="" class="formation_icon">
+                            <p>Experiencia</p>
+                        </div>
+                        <span class="line_separator"></span>
+                        <div class="formation_description">
+                            <ul>
+                                <li>- 10 años como dentista general.</li>
+                                <li>- 6 años como ortodoncista</li>
+                                <li>- 5 años como dentista general y ortodoncista en Francia.</li>
+                                <li>- 4 años como Dentista general y ortodoncista en Neofacial.</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="card_content attention">
+                        <div class="description_card">
+                            <img src="/icons/map-point.svg" alt="" class="formation_icon">
+                            <p>Atención</p>
+                        </div>
+                        <span class="line_separator"></span>
+                        <div class="formation_description">
+
+                            <ul class="atention_list_element">
+                                <li><strong>- Dirección</strong></li>
+                                <li>Ave París, 24. 10005, Cáceres (Extremadura, España)</li>
+                                <li><strong>- Telefono</strong></li>
+                                <li>927 153 868</li>
+                                <li><strong>- WhatsApp</strong></li>
+                                <li>645 33 79 89</li>
+                            </ul>
+
+                            <div class="button_email" id="emailButton">
+                                <img src="/icons/gmail-icon-pink.svg" alt="">
+                                <p>Contactar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+           
         </section>
         <section class="about">
-            <div class="nav-items">
+            <!-- <div class="nav-items">
                 <a class="nav_icons" href="#"><img src="./icons/linkedin.svg" alt=""></a>
                 <a class="nav_icons" href="#"><img src="./icons/mail.svg" alt=""></a>
                 <a class="nav_icons" href="#"><img src="./icons/whatsapp.svg" alt=""></a>
-            </div>
+            </div> -->
             <div class="paragraph_continer">
                 <p>La<h3>Dra Laura Guadalete Sousa</h3>atiende a cada uno de sus pacientes siguiendo la mas avanzada metodología. Comienza con un estudio psicológico y conductual de cada paciente, para diseñar una sonrisa de a corde con su personalidad.</p>
                 <p>Para llevar a cabo esta metodología representativa, desde la primera consulta, se crea una admosfera de confianza mediante las primeras charlas. A partir de ese punto de vínculo, doctora, paciente, surgen necesidades intrisecas que ayudan a la doctora a estructurar un tratamieto personalizado</p>
@@ -167,6 +276,7 @@
 
     <script src="./proJS/animateMenu.js"></script>
     <script src="./proJS/ListOfMenu.js"></script>
+    <script src="./proJS/ref_email.js"></script>
 </body>
 
 </html>
