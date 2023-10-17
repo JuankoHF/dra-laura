@@ -1,9 +1,8 @@
-.header_menu {
-    /* height: 80px; */
+/* .header_menu {
     background: #000000; 
     background: -webkit-linear-gradient(to left, #4b4d4f, #000000);  
     background: linear-gradient(to left, #4b4d4f, #000000); 
-}
+} */
 .header_menu h1 {
     text-align: left;
     margin-left: 50px;
@@ -81,7 +80,8 @@
     font-size: 1.8rem;
 }
 @media screen and (min-width: 830px){ 
-    .profile_information_content {
+    .profile_information_content,
+    .content_interactive_text{
         width: 70%;
         max-width: 600px;
     }
@@ -135,4 +135,6 @@
         line-height: 12px;
         letter-spacing: 0.6px;
     }
+
+  
 }

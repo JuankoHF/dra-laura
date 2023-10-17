@@ -6,7 +6,8 @@
     --silver_strong: #c0c0cc;
     --silve_transparent: rgba(192, 192, 192, 0.16);
     --sub_orange:  rgba(227, 179, 83);
-    --sub_pink:  #eda2d0fc;
+    /* --sub_pink:  #eda2d0fc; */
+    --sub_pink:  #78a0f8fc;
     --green_card: rgb(67, 197, 78);
 }
 * {
