@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
     let positionMain = animeBackGround.getBoundingClientRect().top;
     let headerActive = document.querySelector(".header_menu");
    
-    console.log(positionMain);
+    // console.log(positionMain);
 
     if(positionMain < -4) {
         headerActive.classList.add("bg_black_scrollable");
