@@ -17,13 +17,21 @@
     height: 70px;
     min-height: 50px;
     background-color: transparent;
-    /* background-color: var(--total_black);
-    border-bottom: solid 1px var(--sub_pink);
-    box-shadow: 0 0 2px var(--sub_pink); */
+    transition: all 0.4s ease-in-out;
 
-    animation-name: front;
+    /* animation-name: front;
     animation-duration: 5s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1; */
+}
+
+.bg_black {
+    background-color: rgba(0, 0, 0, 0.825);
+    transition: all 0.4s ease-in-out;
+    border-bottom: solid 1px var(--sub_pink);
+}
+.bg_black_scrollable {
+    background-color: rgba(0, 0, 0, 0.825);
+    transition: all 0.6s ease-in-out;
 }
 
 @keyframes front {
@@ -105,7 +113,6 @@
     flex-direction: column;
     border-radius: 0 0 16px 16px;
     background-color: rgba(0, 0, 0, 0.825);
-    box-shadow: 0px 0px 20px black;
     clip-path: circle(0 at 100% 0);
     transition: clip-path 0.6s;
     transition: 0.5s ease-in-out;
