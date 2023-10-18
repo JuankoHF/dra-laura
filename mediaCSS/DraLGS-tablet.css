@@ -24,9 +24,6 @@
 .list_sub_item {
     padding: 4px 30px;
 }
-.profile_picture-under {
-    padding-top: 100px;
-}
 .profile_picture {
     width: 40%;
     max-width: 800px;
@@ -79,16 +76,51 @@
     max-width: 800px;
     font-size: 1.8rem;
 }
-@media screen and (min-width: 830px){ 
-    .profile_information_content,
-    .content_interactive_text{
-        width: 70%;
-        max-width: 600px;
+
+@media screen and (min-width: 750px) and (min-height: 900px) {
+    .profile_information_content {
+        padding: 100px 0 80px;
+    }
+    .content_interactive_text {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-height: 800px){ 
+    .profile_information_content {
+        flex-direction: row;
+        padding: 100px 0 40px;
+        justify-content: space-between;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+    .contente_description {
+        width: 300px;
+        max-width: 300px;
+       
     }
 
-    .contente_description {
-        padding: 10px 28px;
-        border-radius: 12px 12px 0 0;
+    .loader {
+        padding: 0px;
+    }
+
+    .button_action {
+        justify-content: flex-end;
+        width: 200px;
+        margin-left: 200px;
+    }
+    
+    .content_interactive_text{
+        width: 460px;
+        max-width: 460px;
+        padding-left: 30px;
     }
 
     .contente_description p {
@@ -137,4 +169,27 @@
     }
 
   
+}
+
+@media screen and (min-width: 1020px) {
+    .contente_description h1 {
+        font-size: 2.6rem;
+        margin-bottom: 6px;
+    }
+    .contente_description p {
+        font-size: 1.3rem;
+        line-height: 13px;
+    }
+    .loader {
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+    }
+    .text_action_content P {
+        font-size: 2rem;
+        letter-spacing: 0.8px;
+    }
+    .button_action p {
+        font-size: 2.4rem;
+
+    }
 }
