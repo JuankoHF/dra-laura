@@ -382,6 +382,19 @@ video {
     flex-direction: column;
     align-items: center;
 }
+
+.move_to {
+    animation: moveTop 1s ease-in-out;
+
+}
+@keyframes moveTop {
+    form {
+        margin-top: 60px;
+    }
+    to {
+        margin-top: 0px;
+    }
+}
 .flex_to_left,
 .flex_to_right {
     width: 100%;

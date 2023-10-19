@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./mediaCSS/DraLGS-tablet.css" media="(min-width: 600px)">
     <link rel="stylesheet" href="./mediaCSS/DraLGS-big.css" media="(min-width: 1200px)">
     <link rel="stylesheet" href="./mediaCSS/DraLGS-size-plus.css" media="(min-width: 1900px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -179,7 +180,8 @@
                 <h3>Avalada por conocimiento y experiencia.</h3>
             </div>
 
-            <div class="content_flex_for_bigScreem">
+            <div class="content_flex_for_bigScreem" id="animeScroll" 
+            data-aos="slide-up" data-aos-duration="1000">
                 <div class="flex_to_left">
                     <div class="formation_experience_attention">
                         <div class="card_content formation">
@@ -311,6 +313,10 @@
     <script src="./proJS/ListOfMenu.js"></script>
     <script src="./proJS/ref_email.js"></script>
     <script src="./proJS/LGS-big_LOMenu.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
