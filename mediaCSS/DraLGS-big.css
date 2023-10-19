@@ -109,13 +109,6 @@
     top: 40px;
 }
 
-.profile_picture-under {
-    height: 100vh;
-    width: 100vw;
-    padding: 120px 0 0 100px;
-    align-items: flex-start;
-    box-sizing: border-box;
-}
 .profile_picture {
     width: 40%;
     max-width: 800px;
@@ -183,9 +176,11 @@
     bottom: 16%;
 } */
 
-
-.profile_information_content {
-    max-width: 760px;
+.contente_description {
+    width: 400px;
+    max-width: 400px;
+    margin-bottom: 120px;
+    padding: 12px 0 12px 30px;
 }
 .formation_experience_attention {
     max-width: 760px;
@@ -210,23 +205,25 @@
     align-items: center;
     position: absolute;
     right: 0px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .loader {
     font-size: 3rem;
     height: 70px;
-    padding: 15px 10px;
 }
 .word {
     padding-left: 10px;
 }
 
 .text_action_content {
-    gap: 30px;
+    gap: 100px;
 }
 .text_action_content P {
     font-size: 2.4rem;
+}
+.button_action {
+    margin-left: 320px;
 }
 .button_action p {
     font-size: 2.6rem;
