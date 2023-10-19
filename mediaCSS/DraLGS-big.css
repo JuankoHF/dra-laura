@@ -185,15 +185,6 @@
 .formation_experience_attention {
     max-width: 760px;
 }
-.card_content {
-    height: 160px;
-    padding: 8px 7%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 4px;
-}
 
 .content_interactive_text {
     width: 60%;
@@ -228,50 +219,68 @@
 .button_action p {
     font-size: 2.6rem;
 }
-/* .wave {
-    display: flex;
-    position: absolute;
-    width: 300px;
-    bottom: 16%; 
-    left: 80px;
-} */
 
-/* .photoF_bigLGS h2 {
-    display: flex;
-    position: absolute;
-    right: 80px;
-    top: 100px;
-    font-family: 'PT Serif', serif;
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-    color: #eda2d0fc;
-    opacity: 0.4;
+.personal_data {
+    padding: 80px 0 40px;
 }
-.photoF_bigLGS h3 {
-    display: flex;
-    position: absolute;
-    right: 84px;
-    top: 96px;
-    font-family: 'PT Serif', serif;
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-    opacity: 0.7;
-}
-.photoF_bigLGS p {
-    display: flex;
-    position: absolute;
-    max-width: 550px;
-    right: 80px;
-    top: 200px;
-    font-size: 2.4rem;
-    text-align: right;
-    opacity: 0.8;
-    padding-bottom: 32px;
-    border-bottom: solid 4px #eda2d0fc;
-} */
 
+.content_text_personal_description {
+    width: 90%;
+    max-width: 90%;
+}
+
+.personal_data h3 {
+    font-size: 3.4rem;
+    letter-spacing: 2.8px;
+}
+.referens_persoal_data {
+    border-bottom: solid 2px var(--sub_pink);
+}
+.content_flex_for_bigScreem {
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.flex_to_left {
+    width: 40%;
+    justify-content: flex-start;
+}
+.formation_experience_attention {
+    width: 80%;
+    margin: 0 0 40px 0;
+    gap: 16px;
+}
+.card_content {
+    padding: 12px 7%;
+    gap: 6px;
+}
+.line_separator {
+    height: 2px;
+}
+.formation_description ul li {
+    margin-bottom: 8px;
+}
+
+.content_action_personal_data {
+    align-items: flex-start;
+    gap: 50px;
+    margin: 50px 0 10px;
+}
+.content_action_personal_data p {
+    font-size: 3.2rem;
+    letter-spacing: 1.6px;
+}
+.button_action .color_in_black {
+    font-size: 2.6rem;
+}
+.flex_to_right {
+    width: 58%;
+}
+.to_right_image_continer {
+    width: 100%;
+    height: 560px;
+}
 .about {
     width: 100vw;
     background: #eda2d0fc; 
