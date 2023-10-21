@@ -187,6 +187,7 @@
 
     .content_image_profile img {
         height: 640px;
+        max-width: 540px;
     }
     .paragraph_continer {
         max-width: 500px;
@@ -382,6 +383,7 @@
     .content_image_profile img {
         height: 790px;
         width: 64%;
+        max-width: 662px;
     }
     .paragraph_continer {
         max-width: 550px;

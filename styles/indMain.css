@@ -576,32 +576,11 @@ video {
 }
 .content_image_profile img {
     width: 85%;
+    max-width: 360px;
     height: 500px;
     object-fit: cover;
 }
-.nav-items {
-    width: 250px;
-    height: 40px;
-    position: absolute;
-    top: -20px;
-    left: calc(50% - 125px);
-    padding: 0 35px;
-    background-color: rgba(19, 19, 19, 0.825);
-    box-shadow:  5px 5px 10px #838282, -5px -5px 10px #acabab;
-    border-radius: 16px;
-    
-}
-.nav_icons {
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 5px;
 
-}
-.nav_icons img {
-    width: 30px;
-    height: 30px;
-    
-}
 
 .paragraph_continer {
     width: 75%;
