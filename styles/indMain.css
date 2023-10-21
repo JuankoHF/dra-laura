@@ -1,4 +1,4 @@
-@nav_linkimport './global.css';
+@import './global.css';
 
 .profile_picture-under {
     width: 100vw;
@@ -326,7 +326,7 @@ video {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--dow_green-text);
-    padding: 70px 0 20px;
+    padding: 70px 0 0px;
     overflow: hidden;
 }
 .content_text_personal_description {
@@ -368,7 +368,8 @@ video {
     color: var(--total_black);
 }
 
-.personal_data h3 {
+.personal_data h3,
+.about h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     letter-spacing: 2.4px;
@@ -383,18 +384,6 @@ video {
     align-items: center;
 }
 
-.move_to {
-    animation: moveTop 1s ease-in-out;
-
-}
-@keyframes moveTop {
-    form {
-        margin-top: 60px;
-    }
-    to {
-        margin-top: 0px;
-    }
-}
 .flex_to_left,
 .flex_to_right {
     width: 100%;
@@ -543,7 +532,7 @@ video {
     font-size: 2.4rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.1px;
     color: var(--total_black);
 }
 .button_action .in_black {
@@ -568,49 +557,54 @@ video {
 .about {
     width: 100vw;
     height: auto;
-    margin: 0 auto;
-    position: relative;
-    background: var(--silver);  
-    background: -webkit-linear-gradient(to bottom, var(--silver), var(--silve_transparent));  
-    background: linear-gradient(to bottom,  var(--silver), var(--silve_transparent)); 
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--dow_green-text);
+    padding: 70px 0 20px;
+    overflow: hidden;
 }
-.nav-items {
-    width: 250px;
-    height: 40px;
-    position: absolute;
-    top: -20px;
-    left: calc(50% - 125px);
-    padding: 0 35px;
-    background-color: rgba(19, 19, 19, 0.825);
-    box-shadow:  5px 5px 10px #838282, -5px -5px 10px #acabab;
-    border-radius: 16px;
-    
+.content_image_profile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    position: relative; 
+    margin: 30px 0;
 }
-.nav_icons {
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 5px;
+.content_image_profile img {
+    width: 85%;
+    max-width: 360px;
+    height: 500px;
+    object-fit: cover;
+}
 
-}
-.nav_icons img {
-    width: 30px;
-    height: 30px;
-    
-}
 
 .paragraph_continer {
-    width: 90%;
-    max-width: 480px;
+    width: 75%;
+    max-width: 350px;
     height: auto;
-    margin: 0 auto;
-    padding: 50px 5px;
-    font-size: 1.6rem;
-    text-align: center;
-    color: var(--total_black);
-    opacity: 0.8;
+    position: absolute;
+    top: 320px;
+    right: 5%;
+    padding: 10px 14px;
+    font-size: 1.2rem;
+    text-align: left;
+    color: var(--dow_green-text);
+    background-color: rgb(26 25 25 / 64%);
+    border-radius: 8px;
 }
 
+.paragraph_continer strong {
+    padding: 0 3px;
+    color: var(--sub_pink);
+}
 
+.paragraph_continer strong:first-child {
+    font-family: 'PT Serif', serif;
+}
 .graphic_menu {
     width: 100vw;
     padding: 10px 10px 30px 10px ;
