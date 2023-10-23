@@ -103,8 +103,8 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="profile_picture-under" id="scrollable">
+    <main >
+        <section class="profile_picture-under section" id="scrollable">
            
             <video onloadedmetadata="this.muted=true" playsinline autoplay loop>
                 <source src="./videos/video_fondo.mp4"playsinline autoplay loop>
@@ -171,7 +171,7 @@
             
            
         </section>
-        <section class="personal_data">
+        <section class="personal_data section" id="section2">
             <div class="content_text_personal_description">
                 <div class="referens_persoal_data">
                     <h1>Dra. LAURA</h1>
@@ -180,8 +180,9 @@
                 <h3>Avalada por conocimiento y experiencia.</h3>
             </div>
 
-            <div class="content_flex_for_bigScreem" id="animeScroll" 
-            data-aos="slide-up" data-aos-duration="1000">
+            <div class="content_flex_for_bigScreem" 
+                data-aos="fade-up"data-aos-duration="1000" data-aos-easing="ease-in-out"
+            >
                 <div class="flex_to_left">
                     <div class="formation_experience_attention">
                         <div class="card_content formation">
@@ -240,10 +241,6 @@
                                 <li>645 33 79 89</li>
                             </ul>
         
-                            <!-- <div class="button_email" id="emailButton">
-                                <img src="/icons/gmail-icon-pink.svg" alt="">
-                                <p>Contactar</p>
-                            </div> -->
                         </div>
                     </div>
                     <div class="content_action_personal_data">
@@ -256,15 +253,17 @@
                 </div>
 
                 <div class="flex_to_right">
-                    <div class="to_right_image_continer">
-                        <img src="./image/laura_tv.jpeg" alt="">
+                    <div class="to_right_image_continer" id="animeImage">
+                        <img src="./image/laura_tv.jpeg" alt="" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                    </div>
+                    <div class="care_white" >
                     </div>
                 </div>
             </div>
             
             
         </section>
-        <section class="about">
+        <section class="about section" id="animeScroll">
             <div class="content_text_personal_description">
                 <div class="referens_persoal_data">
                     <h1>Dra. LAURA</h1>
@@ -272,10 +271,15 @@
                 </div>
                 <h3>Ayuda profecional empática, paciente y asertiva.</h3>
             </div>
-            <div class="content_image_profile">
-                <img src="./image/risueña.jpg" alt="">
-
-                <div class="paragraph_continer">
+            <div class="content_image_profile" id="animePoligon">
+               
+                <img src="./image/risueña.jpg" class="image_laura" 
+                    data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out" alt=""
+                >
+        
+                <div class="paragraph_continer" data-aos="zoom-out-down" data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >
                     <p>La <strong>Dra. Laura Guadalete Sousa</strong> atiende a cada uno de sus pacientes siguiendo la mas <strong>avanzada metodología</strong>. 
                         Comienza con un estudio psicológico y conductual de cada paciente, para <strong>diseñar</strong> una sonrisa de a corde con su personalidad.</p>
                     <p>Para llevar a cabo esta <strong>metodología representativa</strong>, desde la primera consulta, se crea una <strong>admosfera de confianza</strong> 
@@ -291,7 +295,7 @@
             </div>
            
         </section>
-        <section class="graphic_menu">
+        <section class="graphic_menu section" id="section4">
             <div class="card_menu card-for-tablet1">
                 <img class="image_menu" src="./image/aligner.jpg" alt="">
                 <a href="#">Ortodoncia</a>

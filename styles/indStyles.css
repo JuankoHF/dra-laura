@@ -174,11 +174,14 @@
     transition: height .4s;
     height: 0;
 }
-/* .nav_list:active {
-    background-color: var(--silver);
-    color: var(--total_black);
+
+/* .fixed {
+    position: fixed;
+    
 }
-.nav_link:active {
-    background-color: var(--silver);
-    color: var(--total_black);
+.top_absolute1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
 } */
