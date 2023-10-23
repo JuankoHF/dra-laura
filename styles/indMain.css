@@ -326,7 +326,7 @@ video {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--dow_green-text);
-    padding: 70px 0 0px;
+    padding: 70px 0 10px;
     overflow: hidden;
 }
 .content_text_personal_description {
@@ -391,6 +391,25 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.care_white {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 77% 0, 53% 100%, 0% 100%);
+    transition: clip-path 2s ease-in-out;
+    opacity: 1;
+}
+
+.move_care_white {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    opacity: 1;
 }
 
 .formation_experience_attention {
@@ -562,9 +581,34 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--dow_green-text);
+    background-color: var(--total_black);
     padding: 70px 0 20px;
     overflow: hidden;
+    transition: all 1.5s ease-in-out;
+}
+
+.animate_color_backgroud {
+    background-color: var(--dow_green-text);
+    transition: all 0.6s linear;
+}
+
+.about .content_text_personal_description 
+.referens_persoal_data h1,
+.about .content_text_personal_description 
+.referens_persoal_data p,
+.about .content_text_personal_description h3{
+    color: var(--dow_green-text);
+    opacity: 0.8;
+}
+
+.animate_color_backgroud .content_text_personal_description 
+.referens_persoal_data h1,
+.animate_color_backgroud .content_text_personal_description 
+.referens_persoal_data p,
+.animate_color_backgroud .content_text_personal_description h3 {
+    opacity: 1;
+    color: var(--total_black);
+    transition: all 1s ease-in-out;
 }
 .content_image_profile {
     width: 100%;
@@ -574,13 +618,13 @@ video {
     position: relative; 
     margin: 30px 0;
 }
+
 .content_image_profile img {
     width: 85%;
     max-width: 360px;
     height: 500px;
-    object-fit: cover;
+    object-fit: cover; 
 }
-
 
 .paragraph_continer {
     width: 75%;
