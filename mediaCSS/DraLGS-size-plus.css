@@ -134,11 +134,30 @@
     max-width: 620px;
 }
 .paragraph_continer {
-    max-width: 1000px;
+    max-width: 850px;
     font-size: 2.8rem;
     line-height: 40px;
     padding: 28px 28px;
-    top: 440px;
-    right: 28%;
-    border-radius: 16px;
+    top: 120px;
+    right: 12%;
+}
+
+.content_cards {
+    margin: 100px 0 60px;
+    max-width: 850px;
+}
+
+.card_menu {
+    width: 200px;
+    height: 270px;
+    border-radius: 12px;
+}
+.image_menu {
+    width: 130px;
+    height: 130px;
+    margin: 30px 0 40px;
+}
+.card_menu a {
+    font-size: 1.8rem;
+    line-height: 18px;
 }

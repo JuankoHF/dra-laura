@@ -32,5 +32,5 @@ header{
 main {
     width: 100%;
     height: auto;
-    background-color: var(--silver);
+    background-color: var(--dow_green-text);
 }
