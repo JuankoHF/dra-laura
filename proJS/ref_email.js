@@ -2,6 +2,7 @@
 const emailButton = document.getElementById('emailButton');
 const emailButton2 = document.getElementById('emailButton2');
 const emailButton3 = document.getElementById('emailButton3');
+const emailButton4 = document.getElementById('emailButton4');
 
 // Agrega un manejador de evento clic al botón
 emailButton.addEventListener('click', function() {
@@ -12,7 +13,19 @@ emailButton.addEventListener('click', function() {
     window.location.href = 'mailto:' + emailAddress;
 });
 
+emailButton2.addEventListener('click', function() {
+    const emailAddress = 'laura080421@gmail.com';
+    
+    window.location.href = 'mailto:' + emailAddress;
+});
+
 emailButton3.addEventListener('click', function() {
+    const emailAddress = 'laura080421@gmail.com';
+    
+    window.location.href = 'mailto:' + emailAddress;
+});
+
+emailButton4.addEventListener('click', function() {
     const emailAddress = 'laura080421@gmail.com';
     
     window.location.href = 'mailto:' + emailAddress;

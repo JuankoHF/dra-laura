@@ -20,15 +20,16 @@ window.addEventListener('scroll', function() {
     let animeScroll = document.getElementById('animeScroll');
     let positionContentFlex = animeScroll.getBoundingClientRect().top;
     let aboutActive = document.querySelector(".about");
-
+    let bgBlackActive = document.querySelector(".about_bg_black")
      
-    if(positionContentFlex < screenHeight / 3) {
+    if(positionContentFlex < screenHeight / 2) {
         aboutActive.classList.add("animate_color_backgroud");
-        
+        bgBlackActive.classList.add("anime_about_bg_black")
     }
 
     if(positionContentFlex > screenHeight) {
         aboutActive.classList.remove("animate_color_backgroud");
+        bgBlackActive.classList.remove("anime_about_bg_black")
 
     }
 
@@ -46,7 +47,7 @@ window.addEventListener('scroll', function() {
         careWhiteActive.classList.remove("move_care_white");
     }
 
-     //IMAGE SECTION about 
+    //IMAGE SECTION about 
     //  let animePoligon = document.getElementById('animePoligon');
     //  let positionAnimePoligon = animePoligon.getBoundingClientRect().top;
     //  let poligonWhiteActive = document.querySelector(".poligon_wite");

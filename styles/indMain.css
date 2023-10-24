@@ -369,7 +369,8 @@ video {
 }
 
 .personal_data h3,
-.about h3 {
+.about h3,
+.graphic_menu h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     letter-spacing: 2.4px;
@@ -581,10 +582,27 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--total_black);
+    background-color: var(--dow_green-text);
     padding: 70px 0 20px;
     overflow: hidden;
     transition: all 1.5s ease-in-out;
+}
+
+.about_bg_black {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--total_black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 1.5s ease-in-out;
+    opacity: 1;
+}
+
+.anime_about_bg_black {
+    clip-path: inset(100% 0 0 0);
 }
 
 .animate_color_backgroud {
@@ -651,34 +669,61 @@ video {
 }
 .graphic_menu {
     width: 100vw;
-    padding: 10px 10px 30px 10px ;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px 0 50px;
+    overflow: hidden;
+    background: var(--total_black);
+    
+}
+.graphic_menu .content_text_personal_description 
+.referens_persoal_data h1,
+.graphic_menu .content_text_personal_description 
+.referens_persoal_data p,
+.graphic_menu .content_text_personal_description h3{
+    color: var(--dow_green-text);
+}
+
+.content_cards {
+    width: 90%;
+    max-width: 420px;
     height: auto;
     display: flex;
-    background: var(--silve_transparent);
-    
+    justify-content: space-between;
+    margin: 60px 0 10px;
 }
 .card_menu {
     width: 95px;
     height: 140px;
-    margin: 0 auto;
-    background-color: rgba(52, 52, 52, 0.825);
+    background-color: var(--sub_pink);
     border-radius: 8px;
-    box-shadow:  5px 5px 10px #838282, -5px -5px 10px #acabab;
+    box-shadow:  2px 2px 5px #78a1f88a;
     text-align: center;
 }
 .image_menu {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: solid 3px var(--sub_pink);
-    margin-top: 15px; 
-    margin-bottom: 10px; 
+    border: solid 2px var(--total_black);
+    margin: 15px 0 12px;
 }
 .card_menu a {
     text-decoration: none;
-    color:  var(--sub_pink);
+    color:  var(--total_black);
     font-size: 1.2rem;
+    line-height: 12px;
 }
+
+.graphic_menu .content_action_personal_data p,
+.graphic_menu .button_action .color_in_black {
+    color: var(--dow_green-text);
+}
+
+
 .footer {
     width: 100vw;
     height: auto;
@@ -694,11 +739,12 @@ video {
     justify-content: center;
     padding-top: 15px;
 }
-.content h2{
+.content a{
+    text-decoration: none;
     color: var(--soft-grey);
     margin-right: 12px;
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 1.5px;
     opacity: 0.8; 
 }
@@ -706,23 +752,25 @@ video {
     color: var(--soft-grey);
     margin-right: 10px;
     margin-bottom: 6px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     opacity: 0.8; 
 }
 .signature h3 {
-    color: var(--soft-grey);
+    color: var(--dow_green-text);
     margin-right: 10px;
     margin-bottom: 6px;
-    font-size: 1.2rem;
-    letter-spacing: 1.2px;
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
 }
 .jnk {
     width: 40px;
     height: 20px;
-    background-color:var(--sub_orange);
+    background-color:var(--sub_pink);
     margin-left: calc(50% - 20px);
-    border-radius: 6px;
-    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
 }
 
 @media  screen and (min-width: 410px) {
@@ -733,6 +781,10 @@ video {
     .text_action_content P {
         font-size: 1.6rem;
         letter-spacing: 0.8px;
+    }
+    .content_cards {
+        width: 80%;
+        max-width: 420px;
     }
 }
 
