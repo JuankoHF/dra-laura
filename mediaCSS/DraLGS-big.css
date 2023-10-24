@@ -52,7 +52,7 @@
 }
 .nav_link:hover {
     /* border-left: solid 2px var(--soft-grey); */
-    border-bottom: solid 2px var(--soft-grey);
+    border-bottom: solid 2px var(--sub_pink);
     color: var(--dow_green-text);
     opacity: 1;
     
@@ -87,6 +87,9 @@
     top: -12px;
     left: 20px;
 }
+.link_show {
+    border-left: 2px solid var(--sub_pink);
+}
 .nav_sub_list {
     font-size: 1.6rem;
     line-height: 16px;
@@ -98,7 +101,7 @@
     width: 100%;
 }
 .nav_sub_list:hover {
-    border-left: solid 2px var(--soft-grey);
+    border-left: solid 2px var(--sub_pink);
     opacity: 1;
     color: var(--sub_pink);
 }

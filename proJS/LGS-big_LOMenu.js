@@ -70,8 +70,8 @@ window.addEventListener('scroll', function() {
 
 
 
-    console.log(screenHeight, "tamaño pantalla");
-    console.log(positionAnimeImage, "posicion de imagen")
+    // console.log(screenHeight, "tamaño pantalla");
+    // console.log(positionAnimeImage, "posicion de imagen")
     // console.log(positionMain);
 
     // if(positionSection2 < screenHeight / 2) {
