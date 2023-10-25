@@ -237,6 +237,10 @@ main {
         margin-bottom: 8px;
         font-size: 1.6rem;
     }
+    .pending_action {
+        padding: 0 20%;
+        margin-bottom: 30px;
+    }
 }
 @media screen and (min-width: 1200px) and (min-height: 900px) {
     .pd_top {
