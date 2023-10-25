@@ -82,3 +82,185 @@
     margin-bottom: 6px;
     font-size: 1.2rem;
 }
+.pending_action {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--total_black);
+    padding: 0 5%;
+}
+.pending_action .content_action_personal_data p,
+.pending_action .button_action .color_in_black {
+    color: var(--dow_green-text);
+}
+
+@media screen and (min-width: 750px) and (min-height: 900px) {
+    .flex_big_size {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 40px;
+        justify-content: flex-start;
+        padding-right: 30px;
+    }
+    .description_image_continer {
+        padding-top: 30px;
+    }
+}
+@media screen and (min-width: 830px) and (max-height: 800px) {
+
+    .flex_big_size {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 40px;
+        justify-content: flex-start;
+        padding-right: 60px;
+    }
+    .description_image_continer {
+        padding-top: 30px;
+        height: 65vh;
+    }
+}
+@media screen and (min-width: 1020px) {
+    .flex_big_size {
+        gap: 50px;
+        padding-right: 60px;
+    }
+    .description_image_continer {
+        padding-top: 50px;
+    }
+    .description_text_continer {
+        margin-top: 50px;
+    }
+    .description_text_continer h2 {
+        font-size: 2rem;
+        letter-spacing: 1.2px;
+    }
+    .description_text_continer h4 {
+        font-size: 1.6rem;
+    }
+    .description_text_continer p {
+        font-size: 1.6rem;
+    }
+    .content_tittle_benefist {
+        width: 80%;
+        max-width: 800px;
+        gap: 28px;
+        margin: 50px 0 30px;
+    }
+    .content_tittle_benefist img {
+        width: 24px;
+        height: min-content;
+    }
+    .content_tittle_benefist h2 {
+        font-size: 2rem;
+        letter-spacing: 1.2px;
+    }
+    .text_benefist {
+        width: 80%;
+        max-width: 800px;
+    }
+    .text_benefist li {
+        list-style: none;
+        margin-bottom: 8px;
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .flex_big_size {
+        gap: 60px;
+        padding-right: 80px;
+    }
+    .description_image_continer {
+        width: 80%;
+        height: 55vh;
+    }
+    .description_text_continer h2 {
+        font-size: 2.6rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 24px;
+    }
+    .description_text_continer h4 {
+        font-size: 1.6rem;
+        margin-bottom: 24px;
+        letter-spacing: 0.4px;
+    }
+    .description_text_continer p {
+        font-size: 1.6rem;
+
+    }
+    .content_tittle_benefist {
+        width: 80%;
+        max-width: 1000px;
+        gap: 28px;
+        margin: 50px 0 30px;
+    }
+    .content_tittle_benefist img {
+        width: 28px;
+        height: min-content;
+    }
+    .content_tittle_benefist h2 {
+        font-size: 2.6rem;
+        letter-spacing: 1.2px;
+    }
+    .text_benefist {
+        width: 80%;
+        max-width: 1000px;
+    }
+    .text_benefist li {
+        list-style: none;
+        margin-bottom: 8px;
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1200px) and (min-height: 900px) {
+    .flex_big_size {
+        gap: 80px;
+        padding-right: 80px;
+    }
+    .description_image_continer {
+        width: 40%;
+        height: 40vh;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .flex_big_size {
+        gap: 80px;
+        padding: 0px;
+        max-width: 1200px;
+        margin-top: 20px;
+    }
+    .description_image_continer {
+        width: 45%;
+        height: 40vh;
+    }
+    .description_text_continer h2 {
+        font-size: 2.8rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 28px;
+    }
+    .description_text_continer h4 {
+        font-size: 1.8rem;
+        margin-bottom: 28px;
+    }
+    .description_text_continer p {
+        font-size: 1.8rem;
+    }
+    .content_tittle_benefist h2 {
+        font-size: 2.8rem;
+        letter-spacing: 1.4px;
+    }
+    .text_benefist {
+        margin: 0px 0 30px;
+    }
+    .text_benefist li {
+        font-size: 1.8rem;
+    }
+    .pending_action {
+        padding: 0 30% 30px;
+        margin-top: 30px;
+
+    }
+}
