@@ -33,6 +33,10 @@
     background-color: rgba(0, 0, 0, 0.825);
     transition: all 0.6s ease-in-out;
 }
+.bg_black_scrollable:hover {
+    background-color: var(--total_black);
+    transition: all 0.3s ease-in-out;
+}
 
 @keyframes front {
     form {
@@ -174,6 +178,12 @@
     transition: height .4s;
     height: 0;
 }
+
+.this_page,
+.this_location {
+    color: var(--sub_pink);
+}
+
 
 /* .fixed {
     position: fixed;

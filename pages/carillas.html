@@ -12,12 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/indStyles.css">
-    <link rel="stylesheet" href="./styles/indMain.css">
-    <link rel="stylesheet" href="./mediaCSS/DraLGS-tablet.css" media="(min-width: 600px)">
-    <link rel="stylesheet" href="./mediaCSS/DraLGS-big.css" media="(min-width: 1200px)">
-    <link rel="stylesheet" href="./mediaCSS/DraLGS-size-plus.css" media="(min-width: 1900px)">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/indStyles.css">
+    <link rel="stylesheet" href="../styles/indMain.css">
+    <link rel="stylesheet" href="../styles/pagesStyles.css">
+    <link rel="stylesheet" href="../mediaCSS/DraLGS-tablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="../mediaCSS/DraLGS-big.css" media="(min-width: 1200px)">
+    <link rel="stylesheet" href="../mediaCSS/DraLGS-size-plus.css" media="(min-width: 1900px)">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -32,75 +33,123 @@
             </div>
 
             <ul class="forLGS-big">
+                <li class="list_item"><a class="nav_link" href="../index.html">Resumen</a></li>
                 <li class="list_item">
                     <a class="nav_link" chref="#">Ortodoncia</a>
                     <ul class="link_show LGS-big_show1">
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Invisible</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Convencional</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./ortodoncia.html">Invisible</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./ortodoncia.html#brackets">Convencional</a></li>
                     </ul>
                 </li>
                 <li class="list_item">
-                    <a class="nav_link" chref="#">Especialidades</a>
+                    <a class="nav_link this_page" chref="#">Especialidades</a>
                     <ul class="link_show LGS-big_show1">
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Carillas</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Ortodoncia</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Blanqueamiento</a>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list this_location" href="#">Carillas</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./ortodoncia.html">Ortodoncia</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./blanqueamiento.html">Blanqueamiento</a>
                         </li>
                     </ul>
                 </li>
                 <li class="list_item">
                     <a class="nav_link" chref="#">Otros Tratamientos</a>
                     <ul class="link_show LGS-big_show1">
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Endodoncia</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Odontología
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./endodoncia.html">Endodoncia</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./odonto-rest.html">Odontología
                         Restauradora</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
         <nav class="nav_menu  nav__menu--click">
-            <a class="nav_list" href="#">Dra. Laura Guadalete Sousa</a>
+            <a class="nav_list" href="../index.html">Dra. Laura Guadalete Sousa</a>
             <ul>
                 <li class="list_item">
                     <div class="nav_button list_item--click">
                         <a class="nav_link" chref="#">Ortodoncia</a>
-                        <img src="./icons/chevron-down.svg" class="donw-arrow orto" alt="flecha hacia abajo">
+                        <img src="../icons/chevron-down.svg" class="donw-arrow orto" alt="flecha hacia abajo">
                     </div>
 
                     <ul class="link_show">
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Invisible</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Convencional</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./ortodoncia.html">Invisible</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./ortodoncia.html#brackets">Convencional</a></li>
                     </ul>
                 </li>
                 <li class="list_item">
                     <div class="nav_button list_item--click">
-                        <a class="nav_link" chref="#">Especialidades</a>
-                        <img src="./icons/chevron-down.svg" class="donw-arrow orto" alt="flecha hacia abajo">
+                        <a class="nav_link this_page" chref="#">Especialidades</a>
+                        <img src="../icons/chevron-down.svg" class="donw-arrow orto" alt="flecha hacia abajo">
                     </div>
 
                     <ul class="link_show">
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Carillas</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Ortodoncia</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Blanqueamiento Dental</a>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list this_location" href="#">Carillas</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./ortodoncia.html">Ortodoncia</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./blanqueamiento.html">Blanqueamiento Dental</a>
                         </li>
                     </ul>
                 </li>
                 <li class="list_item">
                     <div class="nav_button list_item--click">
                         <a class="nav_link" chref="#">Otros Tratamientos</a>
-                        <img src="./icons/chevron-down.svg" class="donw-arrow orto" alt="flecha hacia abajo">
+                        <img src="../icons/chevron-down.svg" class="donw-arrow orto" alt="flecha hacia abajo">
                     </div>
 
                     <ul class="link_show">
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Endodoncia</a></li>
-                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="#">Odontología
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./endodoncia.html">Endodoncia</a></li>
+                        <li class="list_item list_sub_item"><a class="nav_sub_list" href="./odonto-rest.html">Odontología
                                 Restauradora</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
     </header>
-
+    <main>
+        <section class="description" id="scrollable">
+            <div class="pd_top"></div>
+            <div class="flex_big_size">
+                <div class="description_image_continer">
+                    <img src="../image/carillas.jpg" alt="">
+                </div>
+                <div class="description_text_continer">
+                    <h2>Carillas</h2>
+                    <h4>Las carillas dentales son unas finas láminas que se colocan en la superficie frontal de 
+                        los dientes con la finalidad de mejorar su aspecto.
+                    </h4>
+                    <p>Las carillas son uno de los tratamientos más demandados actualmente, tanto por su sencillez 
+                        como por su precio. Están indicadas en dientes con anomalías de forma o tamaño. 
+                    </p>
+                    <p>
+                        Su objetivo es corregir problemas estéticos o patológicos originados por caries, 
+                        fracturas leves, cambios de color, etc. Suelen ser de porcelana o composite. Por lo general, 
+                        estas últimas se confeccionan en la propia clínica dental con un material fotocurable similar 
+                        al que se usa para hacer los empastes. En cambio, las de porcelana se fabrican en un laboratorio.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="benefits">
+            <div class="content_tittle_benefist">
+                <img src="../icons/beneficios.svg" alt="">
+                <h2>Beneficios</h2>
+            </div>
+            <ul class="text_benefist">
+                <li>Mejora notablemente el diseño de la sonrisa de manera inmediata e indolora.
+                </li>
+                <li>Corrige la forma y posición de los dientes, cerrando espacios interdentales y diastema.</li>
+                <li>Soluciona la coloración amarillenta o la tinción por ingesta de diferentes alimentos o fármacos.</li>
+                <li>Otorga un nuevo aspecto facial, renovando las expresiones del rostro.</li>
+            </ul>
+        </section>
+        <section class="pending_action" >
+            <div class="content_action_personal_data">
+                <p>Tu sonrisa es única.</p>
+                <div class="button_action" id="emailButtonOrto">
+                    <span></span>
+                    <p class="color_in_black">PIDE CITA</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="footer">
@@ -121,14 +170,11 @@
     </footer>
 
 
-    <script src="./proJS/animateMenu.js"></script>
-    <script src="./proJS/ListOfMenu.js"></script>
-    <script src="./proJS/ref_email.js"></script>
-    <script src="./proJS/LGS-big_LOMenu.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="../proJS/animateMenu.js"></script>
+    <script src="../proJS/ListOfMenu.js"></script>
+    <script src="../proJS/orto.js"></script>
+    
+   
     
 </body>
 </html>
