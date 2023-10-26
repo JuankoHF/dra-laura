@@ -45,7 +45,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-top: 30px;
 }
 .description_text_continer h2 {
@@ -63,6 +63,14 @@ main {
 .description_text_continer p {
     font-size: 1.2rem;
     color: var(--total_black);
+}
+
+.for_cookies {
+    width: 80%;
+    max-width: 1200px;
+}
+.for_cookies p {
+    margin-bottom: 12px;
 }
 .content_tittle_benefist {
     width: 90%;
