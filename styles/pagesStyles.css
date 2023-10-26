@@ -45,7 +45,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-top: 30px;
 }
 .description_text_continer h2 {
@@ -63,6 +63,14 @@ main {
 .description_text_continer p {
     font-size: 1.2rem;
     color: var(--total_black);
+}
+
+.for_cookies {
+    width: 80%;
+    max-width: 1200px;
+}
+.for_cookies p {
+    margin-bottom: 12px;
 }
 .content_tittle_benefist {
     width: 90%;
@@ -193,12 +201,13 @@ main {
     }
     .flex_big_size {
         gap: 60px;
-        padding-right: 80px;
-        flex-direction: row;
+        padding: 0px;
+        max-width: 1000px;
+        margin-top: 10px;
     }
     .description_image_continer {
-        width: 80%;
-        height: 55vh;
+        width: 65%;
+        height: 50vh
     }
     .description_text_continer h2 {
         font-size: 2.6rem;
@@ -216,7 +225,7 @@ main {
     }
     .content_tittle_benefist {
         width: 80%;
-        max-width: 1000px;
+        max-width: 900px;
         gap: 28px;
         margin: 50px 0 30px;
     }
@@ -230,7 +239,7 @@ main {
     }
     .text_benefist {
         width: 80%;
-        max-width: 1000px;
+        max-width: 900px;
     }
     .text_benefist li {
         list-style: none;
@@ -249,11 +258,10 @@ main {
     }
     .flex_big_size {
         gap: 80px;
-        padding-right: 80px;
     }
     .description_image_continer {
-        width: 40%;
-        height: 40vh;
+        width: 85%;
+        height: 35vh;
     }
 }
 @media screen and (min-width: 1900px) {

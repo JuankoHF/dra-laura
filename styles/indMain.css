@@ -699,7 +699,7 @@ video {
 .card_menu {
     width: 95px;
     height: 140px;
-    background-color: var(--sub_pink);
+    background-color: var(--dow_green-text);
     border-radius: 8px;
     box-shadow:  2px 2px 5px #78a1f88a;
     display: flex;
@@ -712,7 +712,7 @@ video {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: solid 2px var(--total_black);
+    /* border: solid 2px var(--total_black); */
     margin: 15px 0 12px;
 }
 .card_menu a {
