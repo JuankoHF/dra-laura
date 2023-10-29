@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/loading.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/indStyles.css">
     <link rel="stylesheet" href="./styles/indMain.css">
@@ -24,6 +25,9 @@
 </head>
 
 <body>
+    <section class="loading">
+        <div class="loader_title"></div>
+    </section>
     <header>
         <div class="header_menu">
             <h1>Dra. LAURA GUADALETE SOUSA</h1>
@@ -107,8 +111,8 @@
     <main >
         <section class="profile_picture-under section" id="scrollable">
            
-            <video onloadedmetadata="this.muted=true" playsinline autoplay loop>
-                <source src="./videos/video_fondo.mp4"playsinline autoplay loop>
+            <video onloadedmetadata="this.muted=true" playsinline autoplay loop class="video">
+                <source src="./video_fondo.mp4" type="video/mp4" >
             </video>
 
             <div class="photoF_bigLGS">

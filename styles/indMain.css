@@ -12,10 +12,17 @@
     justify-content: flex-start;
     align-items: center;
 }
-video {
+.video {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+
+}
+.video_play {
+    opacity: 1;
+    transition: all 1s ease-in-out;
 }
 .profile_picture {
     width: 90%;

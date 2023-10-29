@@ -1,0 +1,46 @@
+@import './global.css';
+.loading {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var( --total_black);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.loader_title {
+    width: fit-content;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    background: linear-gradient(90deg,#000 50%,#0000 0) right/200% 100%;
+    animation: l21 3s 1 linear;
+    position: relative;
+}
+  
+.loader_title::before {
+    content: "Dra. Laura Guadalete Sousa";
+    color: #0000;
+    padding: 0 5px;
+    background: inherit;
+    background-image: linear-gradient(90deg,#fff 50%,#000000 0);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+  
+@keyframes l21 {
+    100% {
+      background-position: left
+    }
+}
+.not_display {
+    display: none;
+}
