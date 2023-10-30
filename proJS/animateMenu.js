@@ -21,10 +21,10 @@ function animateNavs() {
 }
 //prueba//
 var loading = document.querySelector(".loading");
-var videoPlay = document.querySelector(".video");
+var videoPlay = document.querySelector(".back_video");
 
 setTimeout(() => {
-    console.log("Delayed for 1 second.");
+    console.log("Delayed for 3 second.");
     loading.classList.toggle("not_display");
     videoPlay.play();
     videoPlay.classList.add("video_play");
