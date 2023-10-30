@@ -12,12 +12,6 @@
 .forLGS-big {
     right: 60px;
 }
-
-.contente_description {
-    width: 400px;
-    max-width: 400px;
-    padding: 14px 0 14px 30px;
-}
 .contente_description h1 {
     font-size: 2.8rem;
     margin-bottom: 6px;
@@ -27,7 +21,7 @@
     font-size: 1.4rem;
     line-height: 14px;
     letter-spacing: 0.8px;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 .content_interactive_text {
     width: 60%;

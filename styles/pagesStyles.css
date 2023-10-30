@@ -108,7 +108,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--dow_green-text);
-    padding: 0  0 0 5%;
+    padding: 0 5%;
 }
 .pending_action .content_action_personal_data p,
 .pending_action .button_action .color_in_black {

@@ -20,13 +20,3 @@ function animateNavs() {
     headerActive.classList.toggle("bg_black");
 }
 //prueba//
-var loading = document.querySelector(".loading");
-var videoPlay = document.querySelector(".video");
-
-setTimeout(() => {
-    console.log("Delayed for 1 second.");
-    loading.classList.toggle("not_display");
-    videoPlay.play();
-    videoPlay.classList.add("video_play");
-   
-}, "3000");
