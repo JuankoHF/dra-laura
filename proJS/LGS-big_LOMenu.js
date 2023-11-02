@@ -6,13 +6,17 @@ window.addEventListener('scroll', function() {
     let animeBackGround = document.getElementById('scrollable');
     let positionMain = animeBackGround.getBoundingClientRect().top;
     let headerActive = document.querySelector(".header_menu");
-    
+    //WHATSAPP FLOTANTE
+    let whatsappActive = document.querySelector(".whatsapp_icon")
+
     if(positionMain < -4) {
         headerActive.classList.add("bg_black_scrollable");
+        whatsappActive.classList.add("whatsapp_active")
     }
 
     if(positionMain == 0) {
         headerActive.classList.remove("bg_black_scrollable");
+        whatsappActive.classList.remove("whatsapp_active")
 
     }
     

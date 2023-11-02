@@ -28,6 +28,14 @@
     width: 40%;
     max-width: 800px;
 }
+
+.whatsapp_active {
+    width: 48px;
+    height: 48px;
+    bottom: 60px;
+    right: 60px;
+    transition: all 1s ease-in-out;
+}
 .contente_description {
     width: 44%;
 }
@@ -270,6 +278,14 @@
         font-size: 1.3rem;
         line-height: 13px;
     }
+
+    .whatsapp_active {
+        width: 44px;
+        height: 44px;
+        bottom: 40px;
+        right: 60px;
+        transition: all 1s ease-in-out;
+    }
     .formation_experience_attention {
         max-width: 540px;
         gap: 32px;
@@ -325,6 +341,7 @@
         gap: 30px;
         margin: 50px 0 30px;
     }
+   
     .content_action_personal_data p {
         font-size: 2.8rem;
         letter-spacing: 1.6px;

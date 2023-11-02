@@ -297,6 +297,27 @@
     text-transform: uppercase;
 }
 
+.whatsapp_icon {
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+    transition: all 0.6s ease-in-out;
+}
+.whatsapp_icon img {
+    width: 100%;
+    height: 100%;
+}
+.whatsapp_active {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    transition: all 1s ease-in-out;
+    z-index: 10;
+}
+
 .content_flex_for_bigScreem {
     width: 100%;
     height: auto;

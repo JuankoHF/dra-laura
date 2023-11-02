@@ -72,6 +72,14 @@
     font-size: 4rem;
     letter-spacing: 3px;
 }
+
+.whatsapp_active {
+    width: 56px;
+    height: 56px;
+    bottom: 60px;
+    right: 80px;
+    transition: all 1s ease-in-out;
+}
 .formation_experience_attention {
     gap: 30px;
 }
