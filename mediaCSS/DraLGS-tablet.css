@@ -28,6 +28,14 @@
     width: 40%;
     max-width: 800px;
 }
+
+.whatsapp_active {
+    width: 48px;
+    height: 48px;
+    bottom: 60px;
+    right: 60px;
+    transition: all 1s ease-in-out;
+}
 .contente_description {
     width: 44%;
 }
@@ -219,6 +227,50 @@
         letter-spacing: 0.6px;
         text-align: center;
     }
+
+    .content_form {
+        max-width: 540px;
+    }
+    .form {
+        gap: 12px;  
+    }
+    .message, .signin {
+        font-size: 1.4rem;
+    }
+    .form label .input {
+        padding: 16px;
+        border: 2px solid rgba(105, 105, 105, 0.397);
+    }
+    .input {
+        font-size: 1.6rem;
+        letter-spacing: 0.4px;
+    }
+
+    .form label .input + span {
+        left: 16px;
+        top: 0px;
+        font-size: 1.6rem;
+        cursor: text;
+        transition: 0.3s ease;
+    }
+    .form label .input:placeholder-shown + span {
+        top: 16px;
+        font-size: 1.6rem;
+    }
+    .form label .input:focus + span,
+    .form label .input:valid + span {
+        color: var(--sub_pink);
+        top: 0px;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .input_text {
+        height: 120px;
+    }
+    .submit {
+        padding: 16px;
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 830px) and (max-height: 800px){ 
@@ -269,6 +321,14 @@
     .referens_persoal_data p {
         font-size: 1.3rem;
         line-height: 13px;
+    }
+
+    .whatsapp_active {
+        width: 44px;
+        height: 44px;
+        bottom: 40px;
+        right: 60px;
+        transition: all 1s ease-in-out;
     }
     .formation_experience_attention {
         max-width: 540px;
@@ -325,6 +385,7 @@
         gap: 30px;
         margin: 50px 0 30px;
     }
+   
     .content_action_personal_data p {
         font-size: 2.8rem;
         letter-spacing: 1.6px;
@@ -470,5 +531,49 @@
     .card_menu a {
         font-size: 1.6rem;
         line-height: 16px;
+    }
+
+    .content_form {
+        max-width: 700px;
+    }
+    .form {
+        gap: 16px;  
+    }
+    .message, .signin {
+        font-size: 1.6rem;
+    }
+    .form label .input {
+        padding: 20px;
+        border: 2px solid rgba(105, 105, 105, 0.397);
+    }
+    .input {
+        font-size: 1.6rem;
+        letter-spacing: 0.4px;
+    }
+
+    .form label .input + span {
+        left: 20px;
+        top: 0px;
+        font-size: 1.6rem;
+        cursor: text;
+        transition: 0.3s ease;
+    }
+    .form label .input:placeholder-shown + span {
+        top: 20px;
+        font-size: 1.6rem;
+    }
+    .form label .input:focus + span,
+    .form label .input:valid + span {
+        color: var(--sub_pink);
+        top: 0px;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .input_text {
+        height: 160px;
+    }
+    .submit {
+        padding: 20px;
+        font-size: 2.2rem;
     }
 }
