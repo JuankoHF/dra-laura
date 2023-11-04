@@ -175,3 +175,52 @@
     font-size: 1.8rem;
     line-height: 18px;
 }
+
+.content_form {
+    max-width: 850px;
+}
+.form {
+    gap: 16px;  
+}
+.flex label {
+    width: 49%;
+}
+.message, .signin {
+    font-size: 1.8rem;
+}
+.form label .input {
+    padding: 22px;
+    border-radius: 12px;
+}
+.input {
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+}
+
+.form label .input + span {
+    left: 22px;
+    top: 0px;
+    font-size: 2rem;
+    cursor: text;
+    transition: 0.3s ease;
+}
+.form label .input:placeholder-shown + span {
+    top: 22px;
+    font-size: 2rem;
+}
+.form label .input:focus + span,
+.form label .input:valid + span {
+    color: var(--sub_pink);
+    top: 0px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.input_text {
+    height: 180px;
+}
+.submit {
+    padding: 22px;
+    font-size: 2.6rem;
+    letter-spacing: 0.8px;
+    border-radius: 12px;
+}

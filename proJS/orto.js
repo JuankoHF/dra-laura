@@ -14,12 +14,3 @@ window.addEventListener('scroll', function() {
 
     }
 })
-
-
-const emailButtonOrto = document.getElementById('emailButtonOrto');
-
-emailButtonOrto.addEventListener('click', function() {
-    const emailAddress = 'laura080421@gmail.com';
-    
-    window.location.href = 'mailto:' + emailAddress;
-});

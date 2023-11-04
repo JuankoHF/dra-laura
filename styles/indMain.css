@@ -63,7 +63,7 @@
 }
 .contente_description h1 {
     font-family: 'PT Serif', serif;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--dow_green-text);
     letter-spacing: 2px;
@@ -223,6 +223,7 @@
     height: auto;
     margin-left: 50%;
     gap: 14px;
+    text-decoration: none;
 }
 .button_action span {
     width: 30px;
@@ -668,6 +669,132 @@
     color: var(--dow_green-text);
 }
 
+.content_form {
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    display: flex;
+    margin: 60px 0 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+  
+  
+  
+.message, .signin {
+    font-size: 1.2rem;
+    color: var(--silver_strong);
+}
+  
+.signin {
+    text-align: center;
+}
+  
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex label {
+    width: 48%;
+}
+  
+.form label {
+    position: relative;
+}
+  
+.form label .input {
+    background-color: #333;
+    color: var(--dow_green-text);
+    width: 100%;
+    padding: 16px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 8px;
+}
+
+.input_text {
+    background-color: #333;
+    color: var(--dow_green-text);
+    width: 100%;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 8px;
+    height: 80px;
+    padding: 16px;
+}
+  
+.form label .input + span {
+    color: var(--silver);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 1.2rem;
+    cursor: text;
+    transition: 0.3s ease;
+}
+  
+.form label .input:placeholder-shown + span {
+    top: 11px;
+    font-size: 1.2rem;
+}
+  
+.form label .input:focus + span,
+.form label .input:valid + span {
+    color: var(--sub_pink);
+    top: 0px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+  
+.input {
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+}
+  
+.submit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--total_black);
+    font-size: 1.6rem;
+    font-weight: bold;
+    transform: .3s ease;
+    background-color: var(--dow_green-text);
+    border: solid 1px var(--total_black); 
+}
+  
+.submit:hover {
+    color: var(--dow_green-text);
+    background-color: var(--sub_pink);
+}
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: #333 !important;
+    color: fieldtext !important;
+}
+  
+@keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+}
 
 .footer {
     width: 100vw;
